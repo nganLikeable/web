@@ -1,0 +1,125 @@
+
+body {
+    font-family: Georgia;
+    text-align: justify;
+    background-color: lemonchiffon;
+    margin: 60px 20px 30px;
+    
+    
+}
+.banner {
+    background-color: rgb(186 218 85 / 0.4) ;
+    background-image: 
+
+}
+.banner h1{
+    color:rgb(35, 84, 121);
+    text-align: center;
+    font-size: 30pt;
+    
+}
+
+
+.banner table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    
+    
+  }
+  th, td {
+    text-align: left;
+    border: px solid black;
+    padding: 20px 20px; 
+  }
+.introduction {
+  background-color:rgba(231, 238, 207, 0.951)
+}
+.introduction h2 {
+    text-align: center;
+}
+.introduction p {
+    text-align: justify;
+    line-height: 25pt;
+}
+
+.introduction img {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.meeting_info figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 4px;
+    max-width: 440px;
+    margin: auto;
+  }
+  
+.meeting_info  img {
+    max-width: 440px;
+    max-height: 3000px;
+  }
+  
+.meeting_info  figcaption {
+    background-color: rgb(186 218 85 / 0.4);
+    color: #004b1d;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
+
+a{
+    color:rgb(35, 84, 121)
+  }
+
+.travel {
+    background-color: rgba(218, 255, 96, 0.951);
+}
+.travel h1{
+    text-align: center;
+
+}
+
+.bus table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 20px 20px; 
+  }
+  th {
+    text-align: center;
+  }
+.garden-head h1 {
+  text-align: center;
+}
+  
+.garden-banner {
+  background-image:url("https://img.freepik.com/premium-photo/soft-pastel-gradient-color-abstract-background_608068-1431.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1704585600&semt=ais");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  aspect-ratio: 3/1;
+}
+
+
+
+.garden {
+    display: flex;
+    flex-direction: row;
+}
+
+.garden img {
+    width: 400px;
+    height: 300px;
+    padding: 5px;
+}
+

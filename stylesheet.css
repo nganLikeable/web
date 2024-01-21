@@ -1,0 +1,559 @@
+/*Homepage*/
+body {
+  font-family: Georgia;
+  font-size: 12pt;
+}
+p {
+  font-size: 15pt;
+}
+li {
+  list-style-position: inside;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  background-color: rgb(238, 255, 255);
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.navbar li {
+  list-style: none;
+  display: inline;
+  padding: 20px;
+  color: white;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+.navbar {
+  align-items: center;
+  font-weight: bold;
+  color: white;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(3, 56, 56);
+}
+
+/*banner*/
+
+.banner {
+  text-align: center;
+  border: none;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.banner h1 {
+  font-size: 70pt;
+  color: rgb(3, 56, 56);
+  padding-top: 50px;
+  padding-bottom: 0px;
+  font-family: "Lucida Sans";
+}
+
+.banner table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  background-color: rgb(238, 255, 255);
+}
+.banner th,
+td {
+  text-align: left;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 20px 20px;
+  font-size: 15pt;
+  line-height: 2;
+  color: rgb(3, 56, 56);
+  border: 0px;
+}
+
+/* about us */
+.introduction {
+  text-align: justify;
+  display: flex;
+  flex-direction: row;
+  padding: 100px;
+  background-color: rgb(3, 56, 56);
+  color: white;
+  gap: 40px;
+}
+.introduction {
+  align-items: center;
+}
+
+.introduction-small h2 {
+  font-size: 40pt;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.introduction-small img {
+  width: 600px;
+}
+.introduction-small figcaption {
+  text-align: center;
+  font-style: italic;
+}
+.introduction-small p {
+  font-size: 17pt;
+}
+
+/*section for further info*/
+.info-section h2 {
+  font-size: 40pt;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(3, 56, 56);
+  padding-top: 30px;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+  padding: 40px;
+}
+.box-child img {
+  width: 300px;
+  height: 300px;
+}
+.box-child p {
+  font-size: 10pt;
+  font-style: italic;
+}
+.box-child {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(3, 56, 56);
+  color: white;
+  padding: 5px;
+}
+.box-child h3 {
+  font-size: 14pt;
+}
+
+/* travel and page */
+
+.travel {
+  text-align: center;
+  color: rgb(3, 56, 56);
+  padding: 100px;
+  background-image: url("parking_2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.travel h1 {
+  font-size: 60pt;
+  text-transform: uppercase;
+  font-family: "Lucida Sans";
+}
+
+.travel p {
+  font-family: "lucida handwriting";
+}
+
+.uni {
+  color: black;
+  font-size: 30pt;
+}
+
+.bus {
+  padding: 40px 60px 10px 60px;
+}
+
+.bus h2 {
+  text-align: left;
+  font-size: 30pt;
+  color: rgb(3, 56, 56);
+}
+.bus table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+.bus table th {
+  text-align: center;
+  color: black;
+  border: 1px solid black;
+  font-size: 12pt;
+}
+
+.bus td {
+  color: black;
+  text-align: left;
+  line-height: 20px;
+  padding: 20px 20px;
+  font-size: 11pt;
+  line-height: 2;
+  border: 1px solid black;
+}
+
+.bus table td:nth-child(4n-3) {
+  font-size: 13pt;
+  font-weight: bold;
+}
+
+.bus p {
+  text-align: center;
+}
+
+.tram {
+  padding: 0px 60px 10px 60px;
+}
+.tram h2 {
+  text-align: left;
+  font-size: 30pt;
+  color: rgb(3, 56, 56);
+}
+.train {
+  padding: 0px 60px 50px 60px;
+}
+.train h2 {
+  text-align: left;
+  font-size: 30pt;
+  color: rgb(3, 56, 56);
+}
+.train li,
+a {
+  color: rgb(3, 56, 56);
+}
+.train a {
+  color: rgb(3, 56, 56);
+}
+
+.transport-info {
+  background-color: rgb(3, 56, 56);
+  padding: 20px;
+  color: white;
+}
+
+.transport-info li {
+  color: white;
+}
+
+.transport-info a {
+  color: white;
+}
+
+.transport-info p {
+  padding-left: 40pt;
+}
+.parking {
+  padding: 20px 60px 10px 60px;
+}
+.parking h2 {
+  text-align: left;
+  font-size: 30pt;
+  color: rgb(3, 56, 56);
+}
+
+.parking img {
+  width: 800px;
+  height: auto;
+}
+
+.parking figure {
+  text-align: center;
+  font-style: italic;
+}
+
+.footer {
+  display: flex;
+  padding-left: 60px;
+  background-color: rgb(3, 56, 56);
+  align-items: center;
+}
+.footer-logo img {
+  width: 200px;
+  padding: 20px;
+}
+.footer-nav li {
+  color: white;
+  list-style: none;
+  display: inline;
+  font-weight: bold;
+  padding: 5px;
+  font-size: 12pt;
+}
+
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/*art&scenery top*/
+.a-s {
+  text-align: center;
+  color: rgb(3, 56, 56);
+  padding: 100px;
+  background-image: url("la-trobe_1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.a-s h1 {
+  font-size: 60pt;
+  text-transform: uppercase;
+  font-family: "Lucida Sans";
+}
+
+.a-s p {
+  font-family: "lucida handwriting";
+}
+
+/*art */
+.art-banner {
+  text-align: center;
+  background-color: rgb(3, 56, 56);
+  color: white;
+  padding: 10px;
+}
+.art-banner h1 {
+  font-family: "Lucida Sans";
+  text-transform: uppercase;
+  font-size: 30pt;
+}
+
+.art-banner p {
+  font-family: "Segoe Script";
+}
+
+.local-art-text h2 {
+  font-size: 30pt;
+  color: rgb(3, 56, 56);
+  text-align: center;
+}
+.local-art-text p {
+  text-align: justify;
+  color: rgb(3, 56, 56);
+}
+
+.local-art {
+  padding: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.local-art-text {
+  margin-right: 0px;
+}
+
+.local-art-image {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: first baseline;
+  justify-content: first baseline;
+  flex-flow: row wrap;
+}
+.local-art-image {
+  gap: 5px;
+}
+.local-art-image img {
+  height: 300px;
+}
+
+.modern-art {
+  display: flex;
+  flex-direction: row;
+  padding: 0 100px 100px 100px;
+  color: rgb(3, 56, 56);
+}
+
+.modern-image {
+  display: flex;
+  flex-direction: row;
+  flex-flow: nowrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.modern-image img {
+  width: 280px;
+}
+
+.modern-art {
+  gap: 10px;
+}
+
+.modern-art-text h2 {
+  font-size: 30pt;
+  text-align: center;
+}
+.modern-art-text {
+  padding: 30px;
+}
+
+.modern-art-text p {
+  text-align: justify;
+  color: rgb(3, 56, 56);
+}
+
+.modern-art-text {
+  margin-right: 0px;
+}
+
+/*scenery page */
+.garden-head {
+  text-align: center;
+  background-color: rgb(3, 56, 56);
+  color: white;
+  padding: 10px;
+}
+.garden-head h1 {
+  font-family: "Lucida Sans";
+  text-transform: uppercase;
+  font-size: 30pt;
+}
+
+.garden-head p {
+  font-family: "Segoe Script";
+}
+.garden {
+  justify-content: center;
+  padding: 50px;
+}
+.garden-image {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 16px;
+  flex-direction: row;
+  padding: 10px 150px 20px 150px;
+}
+
+.garden-image img {
+  width: 320px;
+  height: 320px;
+}
+
+.garden p {
+  text-align: center;
+  color: rgb(3, 56, 56);
+}
+
+/*agm conference*/
+.conf {
+  text-align: center;
+  color: rgb(3, 56, 56);
+  padding: 100px;
+  background-image: url("conf.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.conf h1 {
+  font-size: 60pt;
+  text-transform: uppercase;
+  font-family: "Lucida Sans";
+}
+
+.conf p {
+  font-family: "lucida handwriting";
+}
+
+.purpose {
+  background-color: rgb(3, 56, 56);
+  color: white;
+  padding: 30px;
+}
+
+.purpose h2 {
+  text-align: center;
+  font-size: 30pt;
+}
+
+.purpose p {
+  text-align: justify;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+/*location & date */
+/*about the meeting */
+.meeting-info {
+  padding: 100px;
+  color: rgb(3, 56, 56);
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.meeting-info h2 {
+  font-size: 30pt;
+  text-align: center;
+}
+
+.meeting-info li {
+  font-size: 15pt;
+}
+
+.meeting-small {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 12pt;
+  justify-content: center;
+  gap: 10px;
+}
+.image {
+  background-color: rgb(3, 56, 56);
+  color: white;
+  text-wrap: wrap;
+  padding: 10px;
+}
+.meeting-small p {
+  text-align: justify;
+}
+
+.meeting-small img {
+  display: block;
+  width: 300px;
+  height: 300px;
+}
+.image p {
+  text-align: center;
+  font-size: 10pt;
+  font-style: italic;
+  font-weight: bold;
+  padding-bottom: 15pt;
+  padding-top: 0pt;
+}
+
+.time {
+  background-color: rgb(183, 227, 255);
+}
+.meeting-small table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  border: 1px solid rgb(3, 56, 56);
+  background-color: rgb(183, 227, 255);
+}
+
+.meeting-small table th {
+  text-align: center;
+  padding: 20px;
+  color: rgb(3, 56, 56);
+  font-size: 12pt;
+  border: 1px solid rgb(3, 56, 56);
+}
+
+.meeting-small td {
+  text-align: left;
+  padding: 20px 20px;
+  font-size: 11pt;
+  border: 1px solid rgb(3, 56, 56);
+  border-collapse: collapse;
+}
